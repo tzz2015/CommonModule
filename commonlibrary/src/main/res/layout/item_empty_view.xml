@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv_image"
+                android:background="@mipmap/medium_curse_empty"
+                android:layout_width="300px"
+                android:layout_height="265px" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:lineSpacingExtra="10px"
+                style="@style/TextView363"
+                android:layout_marginTop="66px"
+                android:layout_below="@+id/iv_image"
+                android:gravity="center"
+                android:text="您还不是学院会员 没有可以上的课程哦 "
+                android:id="@+id/tv_dse"
+                android:layout_width="330px"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>
+

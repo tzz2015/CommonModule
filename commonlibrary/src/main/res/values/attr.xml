@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 底部导航属性-->
+    <declare-styleable name="NavigationV">
+
+        <attr name="drawable_src" format="integer" /> <!--图片选择器-->
+        <attr name="drawable_src_w" format="integer" /> <!--图片宽-->
+        <attr name="drawable_src_h" format="integer" /> <!--图片高-->
+        <attr name="dse_name" format="string" /> <!-- 描述-->
+        <attr name="is_select" format="boolean" /> <!--是否选中-->
+
+
+    </declare-styleable>
+
+
+
+
+
+
+
+
+</resources>

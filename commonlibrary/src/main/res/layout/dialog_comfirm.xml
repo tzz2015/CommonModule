@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@color/colorWhite"
+    android:layout_marginLeft="96px"
+    android:layout_marginRight="96px"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_msg"
+            android:paddingLeft="100px"
+            android:paddingRight="100px"
+            style="@style/TextView366"
+            android:gravity="center"
+            android:paddingTop="60px"
+            android:paddingBottom="60px"
+            android:lineSpacingExtra="10px"
+            android:text="退出登录可能会影响您某些权益的使用"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_line"
+            android:background="@color/public_line_color"
+            android:layout_below="@+id/tv_msg"
+            android:layout_width="match_parent"
+            android:layout_height="1.5px" />
+        <LinearLayout
+            android:layout_below="@+id/tv_line"
+            android:layout_width="match_parent"
+            android:layout_height="120px">
+            <TextView
+                android:id="@+id/tv_btn_left"
+                style="@style/TextView366"
+                android:gravity="center"
+                android:text="确认退出"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_m_line"
+                android:background="@color/public_line_color"
+                android:layout_width="1.5px"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_btn_right"
+                style="@style/TextView32o"
+                android:textSize="36px"
+                android:gravity="center"
+                android:text="暂不退出"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </RelativeLayout>
+   
+
+
+
+</android.support.v7.widget.CardView>

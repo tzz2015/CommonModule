@@ -1,0 +1,36 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    apply from:'versions.gradle'
+    addRepos(repositories)
+    dependencies {
+        classpath deps.android_gradle_plugin
+        classpath 'com.android.tools.build:gradle-experimental:0.9.1'
+        classpath deps.butterknife_gradle_plugin
+        // in the individual module build.gradle files
+    }
+    repositories {
+        google()
+    }
+}
+
+allprojects {
+    repositories {
+        addRepos(repositories)
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+subprojects {
+    project.configurations.all {
+        resolutionStrategy.eachDependency { details ->
+            if (details.requested.group == 'com.android.support'
+                    && !details.requested.name.contains('multidex') ) {
+                details.useVersion '27.1.1'//改这个版本号到你想要的版本
+            }
+        }
+    }
+}

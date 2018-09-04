@@ -1,0 +1,295 @@
+<resources>
+
+    <style name="transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!--修改分类tablayout的字体样式-->
+    <style name="CustomTabLayoutTextAppearance" parent="Base.TextAppearance.AppCompat.Title.Inverse">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color333333</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- <style name="ThemeSwipeBack" parent="Theme.Swipe.Back">
+         <item name="colorPrimary">#db4336</item>
+         <item name="colorPrimaryDark">#b63120</item>
+     </style>-->
+
+    <style name="ThemeSwipeBack" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_entry</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_right_exit</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="swipeBackFactor" format="float" />
+        <attr name="maskAlpha" format="integer" />
+        <attr name="isSwipeFromEdge" format="boolean" />
+        <attr name="directionMode">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="top" value="4" />
+            <enum name="bottom" value="8" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 23 px 99999 -->
+    <style name="TextView239">
+        <item name="android:textSize">23px</item>
+        <item name="android:textColor">@color/color999999</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 25 px 99999 -->
+    <style name="TextView259">
+        <item name="android:textSize">25px</item>
+        <item name="android:textColor">@color/color999999</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 28 px 99999 -->
+    <style name="TextView289">
+        <item name="android:textSize">28px</item>
+        <item name="android:textColor">@color/color999999</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 30 px 99999 -->
+    <style name="TextView309">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/color999999</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 32 px 99999 -->
+    <style name="TextView329">
+        <item name="android:textSize">32px</item>
+        <item name="android:textColor">@color/color999999</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 23 px 666666 -->
+    <style name="TextView236">
+        <item name="android:textSize">23px</item>
+        <item name="android:textColor">@color/color666666</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 25 px 666666 -->
+    <style name="TextView256">
+        <item name="android:textSize">25px</item>
+        <item name="android:textColor">@color/color666666</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 28 px 666666 -->
+    <style name="TextView286">
+        <item name="android:textSize">28px</item>
+        <item name="android:textColor">@color/color666666</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 30 px 666666 -->
+    <style name="TextView306">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/color666666</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 32 px 666666 -->
+    <style name="TextView326">
+        <item name="android:textSize">32px</item>
+        <item name="android:textColor">@color/color666666</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextView346">
+        <item name="android:textSize">34px</item>
+        <item name="android:textColor">@color/color666666</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextView366">
+        <item name="android:textSize">36px</item>
+        <item name="android:textColor">@color/color666666</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 23 px 33333 -->
+    <style name="TextView233">
+        <item name="android:textSize">23px</item>
+        <item name="android:textColor">@color/color333333</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 25 px 33333 -->
+    <style name="TextView253">
+        <item name="android:textSize">25px</item>
+        <item name="android:textColor">@color/color333333</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 28 px 33333 -->
+    <style name="TextView283">
+        <item name="android:textSize">28px</item>
+        <item name="android:textColor">@color/color333333</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 30 px 33333 -->
+    <style name="TextView303">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/color333333</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 32 px 33333 -->
+    <style name="TextView323">
+        <item name="android:textSize">32px</item>
+        <item name="android:textColor">@color/color333333</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextView363">
+        <item name="android:textSize">36px</item>
+        <item name="android:textColor">@color/color333333</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextView403">
+        <item name="android:textSize">40px</item>
+        <item name="android:textColor">@color/color333333</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <!-- 23 px 33333 -->
+    <style name="TextView23w">
+        <item name="android:textSize">23px</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 25 px 33333 -->
+    <style name="TextView25w">
+        <item name="android:textSize">25px</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 28 px 33333 -->
+    <style name="TextView28w">
+        <item name="android:textSize">28px</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 30 px 33333 -->
+    <style name="TextView30w">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 32 px 33333 -->
+    <style name="TextView32w">
+        <item name="android:textSize">32px</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <!-- 23 px 33333 -->
+    <style name="TextView23o">
+        <item name="android:textSize">23px</item>
+        <item name="android:textColor">@color/public_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 25 px 33333 -->
+    <style name="TextView25o">
+        <item name="android:textSize">25px</item>
+        <item name="android:textColor">@color/public_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 28 px 33333 -->
+    <style name="TextView28o">
+        <item name="android:textSize">28px</item>
+        <item name="android:textColor">@color/public_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 30 px 33333 -->
+    <style name="TextView30o">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/public_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 32 px 33333 -->
+    <style name="TextView32o">
+        <item name="android:textSize">32px</item>
+        <item name="android:textColor">@color/public_orange</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="translucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- 自定义进度条-->
+    <declare-styleable name="ArcProgress">
+        <attr name="borderWidth" format="dimension" />
+        <attr name="unprogresColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="tickWidth" format="dimension" />
+        <attr name="tickDensity" format="integer" />
+        <attr name="bgShow" format="boolean" />
+        <attr name="radius" format="dimension" />
+        <attr name="arcbgColor" format="color" />
+        <attr name="degree" format="integer" />
+        <attr name="arcCapRound" format="boolean" />
+        <attr name="progressStyle" format="enum">
+            <enum name="tick" value="1" />
+            <enum name="arc" value="0" />
+        </attr>
+    </declare-styleable>
+    <!--半透明-->
+    <style name="bottom_select_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item><!-- 是否漂现在activity上 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!--全透明-->
+    <style name="trans_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item><!-- 是否漂现在activity上 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="loginDialogAnim">
+        <item name="@android:windowEnterAnimation">@anim/slide_bottom_entry</item>
+        <item name="@android:windowExitAnimation">@anim/slide_top_exit</item>
+    </style>
+
+</resources>

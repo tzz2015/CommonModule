@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+
+
+    <!--页面背景的颜色-->
+    <color name="colorPageBg">#f5f5f5</color>
+    <!--标题颜色-->
+    <color name="colorTitle">#2250BB</color>
+    <!--页面背景的颜色-->
+    <color name="public_gb_color">#f1f1f1</color>
+    <!--线条颜色-->
+    <color name="public_line_color">#e5e5e5</color>
+    <!--标题颜色-->
+    <color name="public_orange">#FFBB2D</color>
+
+    <!--白色-->
+    <color name="colorWhite">#ffffffff</color>
+    <!-- 浅白-->
+    <color name="shallowWhite">#feeeda</color>
+    <!--透明色-->
+    <color name="transparent">#00000000</color>
+    <!--全透明-->
+    <color name="all_transparent">#00000000</color>
+    <!--透明色-->
+    <color name="color_black">#000000</color>
+    <!--黑色-->
+    <color name="black">#212121</color>
+    <!--透明度百分之21的黑色-->
+    <color name="color212121">#212121</color>
+    <!--透明度百分之33的黑色-->
+    <color name="color333333">#212121</color>
+    <!--透明度百分之66的黑色-->
+    <color name="color666666">#666666</color>
+    <!--透明度百分之77的黑色-->
+    <color name="color777777">#777777</color>
+    <!--透明度百分之88的黑色-->
+    <color name="color888888">#888888</color>
+    <!--透明度百分之66的黑色-->
+    <color name="color606666">#606666</color>
+    <!--透明度百分之99的黑色-->
+    <color name="color999999">#999999</color>
+    <!-- 公共蓝色-->
+    <color name="public_blue">#55c3fe</color>
+    <!-- 按钮蓝色-->
+    <color name="button_blue">#51aff6</color>
+    <!-- 搜索框背景-->
+    <color name="search_bg">#FFD753</color>
+    <!--红色-->
+    <color name="public_red">#ff6333</color>
+    <color name="color_bbbbbb">#bbbbbb</color>
+    <color name="color_99000000">#33000000</color>
+    <color name="music_bg">#DBDEE4</color>
+    <color name="ff4747">#ff4747</color>
+    <color name="e3ebde">#e3ebde</color>
+    <color name="dfdfdf">#dfdfdf</color>
+    <color name="f7f9fc">#f7f9fc</color>
+    <color name="c7c7c7">#c7c7c7</color>
+    <color name="black_p50">#7f000000</color>
+
+
+
+
+
+
+</resources>

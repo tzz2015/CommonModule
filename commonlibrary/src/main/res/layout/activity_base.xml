@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/rl_root_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/common_title"
+            layout="@layout/common_back_title" />
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--加载失败-->
+            <LinearLayout
+                android:id="@+id/ll_error_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_image"
+                    android:layout_width="400px"
+                    android:layout_height="300px"
+                    android:src="@drawable/load_fail" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_s_title"
+                    style="@style/TextView323"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48px"
+                    android:gravity="center"
+                    android:textSize="36px"
+                    android:letterSpacing="0.08"
+                    android:text="加载失败" />
+
+                <TextView
+                    android:id="@+id/tv_to_home"
+                    android:layout_width="294px"
+                    android:layout_height="96px"
+                    android:layout_marginTop="60px"
+                    android:background="@drawable/reload_slide"
+                    android:gravity="center"
+                    android:text="重新加载"
+                    android:letterSpacing="0.08"
+                    android:textColor="@color/public_orange"
+                    android:textSize="32px" />
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>
