@@ -76,4 +76,8 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(':commonlibrary')
     implementation project(':sharelogin')
+    if (!isModule.toBoolean()) {
+        implementation project(':module_a')
+        implementation project(':module_b')
+    }
 }

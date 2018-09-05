@@ -5,11 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.hangzhou.hz890.wxbchannel.MainActivity">
-
-    <TextView
+   <TextView
+       android:padding="20dp"
+       android:text="设置isModule=true 模块可单独运行"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <Button
+        android:layout_centerInParent="true"
+        android:id="@+id/bt_a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-/>
+        android:text="跳转A" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/bt_a"
+        android:id="@+id/bt_b"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="跳转B" />
 
 </RelativeLayout>

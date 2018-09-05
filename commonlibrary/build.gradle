@@ -85,7 +85,5 @@ dependencies {
     api deps.support.v4
     annotationProcessor deps.arouter_compiler
     annotationProcessor deps.butterknife_compiler
-
-
-
+    compile 'com.android.support:multidex:1.0.3'
 }
