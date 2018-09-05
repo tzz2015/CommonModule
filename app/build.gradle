@@ -4,9 +4,9 @@ android {
     signingConfigs {
         signconfig {
             keyAlias 'meihao'
-            keyPassword 'hangzhou890xjhfeog'
+            keyPassword ''
             storeFile file('meihao.jks')
-            storePassword 'hangzhou890xjhfeog'
+            storePassword ''
         }
     }
     compileSdkVersion build_versions.target_sdk
@@ -58,14 +58,14 @@ android {
             minifyEnabled true
             shrinkResources true
             zipAlignEnabled true
-            signingConfig signingConfigs.signconfig
+            //signingConfig signingConfigs.signconfig
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {
             minifyEnabled false
             shrinkResources false
             zipAlignEnabled false
-            signingConfig signingConfigs.signconfig
+            //signingConfig signingConfigs.signconfig
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 
         }
