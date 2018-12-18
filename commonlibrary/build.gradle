@@ -72,7 +72,7 @@ dependencies {
     api 'com.contrarywind:Android-PickerView:3.2.4'
     api deps.support.design
     /** GIF*/
-    api 'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
+    api 'pl.droidsonroids.gif:android-gif-drawable:1.2.16'
     // logger
     api deps.logger
     //ARouter
